@@ -1,11 +1,24 @@
 header{
     background-color: #BBBBBB;
+    padding: 20px;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .logo-principal{
     width: auto;
     height: 300px;
     
+}
+
+nav{
+    position: absolute;
+    top:150px;
+    right: 0px;
 }
 
 
