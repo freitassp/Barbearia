@@ -40,6 +40,7 @@ nav a{
 
 nav a:hover {
     color:#C78C19;
+    text-decoration: underline;
 }
 
 .produtos{
@@ -63,6 +64,20 @@ nav a:hover {
 
 }
 
+.produtos li:hover {
+    border-color: #C78C19;
+
+    
+}
+
+.produtos li:active {
+    border-color:#088C19 ;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
@@ -75,5 +90,17 @@ nav a:hover {
    font-size: 22px;
    font-weight: bold;
    margin-top: 10px;
+}
+
+footer{
+  text-align: center;  
+  background: url("imagens/fundoFooter.jpg ");
+  padding: 40px;
+}
+
+.copyright{
+   color:#FFFFFF ; 
+   font-size: 13px;
+   margin-top: 20px;
 }
 
